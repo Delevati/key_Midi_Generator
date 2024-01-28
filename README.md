@@ -6,16 +6,6 @@ Este script foi escrito em Python e gera arquivos '.MIDI' contendo sequências d
 
 - [Mido](https://github.com/mido/mido): Uma biblioteca Python para trabalhar com arquivos MIDI.
 
-```bash
-pip install mido
-
-## Uso
-
-```bash
-python3 run_midi.py
-python3 run_midi_v2test.py
-
-
 ### BPM (Batidas Por Minuto)
 
 Controle a velocidade da sequência ajustando o valor de `bpm` no código.
@@ -36,3 +26,11 @@ Ajuste o intervalo entre as notas na progressão utilizando `intervalo_progressa
 
 Os scripts gerarão um arquivo MIDI com a sequência de notas moduladas e o salvará como `output_modulado.mid`.
 
+```bash
+pip install mido
+
+## Uso
+
+```bash
+python3 run_midi.py
+python3 run_midi_v2test.py
